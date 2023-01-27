@@ -1,0 +1,112 @@
+[
+  {
+    "restaurant": "Burger King",
+    "foodItems": [
+      {
+        "foodName": "Whopper",
+        "foodType": "Burger",
+        "price": 660
+      },
+      {
+        "foodName": "Whooper",
+        "price": 660,
+        "correctedTerm": "Whopper"
+      },
+      {
+        "foodName": "Whopper Sandwich",
+        "price": 660,
+        "correctedTerm": "Whopper"
+      },
+      {
+        "foodName": "Whopper with Cheese",
+        "price": 740
+      },
+      {
+        "foodName": "Whooper with Cheese",
+        "price": 740
+      },
+      {
+        "foodName": "Bacon and Cheese Whopper",
+        "price": 790
+      },
+      {
+        "foodName": "Bacon Double Cheeseburger",
+        "price": 370
+      },
+      {
+        "foodName": "Double Bacon Burger",
+        "price": 370,
+        "correctedTerm": "Bacon Double Cheeseburger"
+      },
+      {
+        "foodName": "Double Whopper",
+        "foodType": "Burger",
+        "price": 900
+      },
+      {
+        "foodName": "Double Whopper with Cheese",
+        "price": 980
+      },
+      {
+        "foodName": "Triple Whopper",
+        "price": 1130
+      }
+    ]
+  },
+  {
+    "restaurant": "Burger Queen",
+    "foodItems": [
+      {
+        "foodName": "Small Hamburger",
+        "foodType": "Burger",
+        "price": 226
+      },
+      {
+        "foodName": "Regular Hamburger",
+        "foodType": "Burger",
+        "price": 325
+      },
+      {
+        "foodName": "Hamburger",
+        "price": 325,
+        "correctedTerm": "Regular Hamburger"
+      },
+      {
+        "foodName": "Huge Hamburger",
+        "foodType": "Burger",
+        "price": 510
+      },
+      {
+        "foodName": "Big Double",
+        "foodType": "Burger",
+        "price": 311
+      },
+      {
+        "foodName": "Chicken Breast",
+        "foodType": "Chicken",
+        "price": 377
+      },
+      {
+        "foodName": "Original Style Chicken Breast",
+        "foodType": "Chicken",
+        "price": 393
+      },
+      {
+        "foodName": "Barbeque Style Chicken Breast",
+        "foodType": "Chicken",
+        "price": 376
+      },
+      {
+        "foodName": "Cajun Style Chicken Breast",
+        "foodType": "Chicken",
+        "price": 377
+      },
+      {
+        "foodName": "Cheddar Style Chicken Breast",
+        "foodType": "Chicken",
+        "price": 534
+      }
+      
+    ]
+  }
+]
