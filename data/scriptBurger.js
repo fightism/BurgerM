@@ -3,13 +3,13 @@ let burgerData = []
 let burgerQueenData = []
 let burgerKingData = []
 let shopNameFilter= []
-var selectedRow = null
+let dataB=[]
 
 
 
 
 
-fetch('/data.json')
+fetch('data/data.json')
 .then((response) =>{
   return response.json() 
 })
@@ -136,21 +136,24 @@ function showAdd(){
 
 
 
-function submitAdd() { 
-        var formData = readFormData();
-        shopNameFilter.push(formData)
-    
-}
+function submitAdd(e) {
+    e.preventDefault()
+    const foodName = e.nameMenu.value
+    const price = e.priceMenu.value
+    const foodType = e.typeMenu.value
+    const data = {
+        foodName,
+        price,
+        foodType,
+      };
 
+      dataB.push(data)
+     
+
+}
 
 function checkbox() { 
-    console.log(formData)
+    console.log(dataB)
 }
 
-function readFormData() {
-    var formData = {};
-    formData["foodName"] = document.getElementById("NameMenu").value;
-    formData["foodType"] = document.getElementById("price").value;
-    formData["price"] = document.getElementById("productType").value;
-    return formData;
-}
+
