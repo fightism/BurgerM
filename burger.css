@@ -118,6 +118,8 @@ a {
   left: 0px;
   right: 0px;
 
+  
+
 }
 
 .popupContent {  /*ก้อนคอนเท้นที่โผล่ที่ขึ้นมาตรงกลาง*/
@@ -128,6 +130,7 @@ a {
   left: 50%;  
   transform: translate(-50%, -50%);  
   color: rgb(0, 0, 0);
+
 }
 
 .closeButton{
